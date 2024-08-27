@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte limpa e legível */
+    margin: 50px;
+    padding: 50px;
+    background-color: #ffffff;/* Cor de fundo suave */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o container da logo e título */
+.logo-container {
+    position: absolute; /* Define a posição absoluta do container */
+    top: 1px; /* Espaçamento do topo */
+    left: 1px; /* Espaçamento da esquerda */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+}
+
+/* Estilo para a imagem */
+.logo-container img {
+    border-radius: 4px; /* Adiciona bordas arredondadas à imagem */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    margin-right: 5px; /* Espaçamento entre a imagem e o título */
+}
+
+/* Estilo para o título */
+.logo-container h2 {
+    color: #000000; /* Cor do título */
+    margin: 0; /* Remove margens padrão ao redor do título */
+    font-size: 1.5em; /* Define o tamanho da fonte do título */
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #a200ff; /* Cor de fundo azul para os botões */
+    color: white; /* Cor do texto dos botões */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas para os botões */
+    padding: 5px 10px; /* Espaçamento interno dos botões */
+
+    font-size: 1em; /* Tamanho da fonte dos botões */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar sobre o botão */
+    margin: 5px; /* Adiciona um espaçamento ao redor dos botões */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: #6e00656b; /* Cor de fundo do botão quando o cursor está sobre ele */
+}
+
+/* Estilo para os parágrafos contendo botões */
+p {
+    margin: 0; /* Remove margens padrão dos parágrafos */
+}
+
+
+   footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0; /* Posiciona o rodapé na parte inferior da tela */
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+button{
+    background-color: #000000;
+}
+
+p{
+    color: #000000;
+}
+
+h1{
+    color: #000000;
+}
+
+.rodape{
+    color: #ffffff
+}
+
